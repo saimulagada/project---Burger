@@ -1,0 +1,467 @@
+@font-face {
+    font-family: 'PoppinsSemi';
+    src: url('../fonts/poppinssemibold/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/poppinssemibold/Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ArchivoBold';
+    src: url('../fonts/archivobold/Archivo-Bold.woff2') format('woff2'),
+        url('../fonts/archivobold/Archivo-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NunitoReg';
+    src: url('../fonts/nunitoregular/Nunito-Regular.woff2') format('woff2'),
+        url('../fonts/nunitoregular/Nunito-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('../fonts/montseratbold/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/montseratbold/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'MontserratReg';
+    src: url('../fonts/montserratregular/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/montserratregular/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NunitoSemi';
+    src: url('../fonts/nunitosemibold/Nunito-SemiBold.woff2') format('woff2'),
+        url('../fonts/nunitosemibold/Nunito-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'CalistogaReg';
+    src: url('../fonts/calistogaregular/Calistoga-Regular.woff2') format('woff2'),
+        url('../fonts/calistogaregular/Calistoga-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:1260px;
+	margin:0 auto;
+}
+.fix::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+header{
+	background-image:url("../images/bg.png");
+	background-size:cover;
+	background-position:center;
+	padding:50px 0 70px 0;
+
+}
+.logo{
+	float:left;
+	width:50%;
+}
+header nav{
+	float:right;
+	width:50%;
+}
+header nav ul{
+	list-style-type: none;
+}
+header nav ul li{
+	display:inline-block;
+	margin-left:20px;
+}
+header nav ul li a{
+	text-decoration:none;
+	color:#fff;
+	 font-family: 'PoppinsSemi';
+}
+.logo h1{
+	color:#fff;
+	font-size:50px;
+	padding-top:50px;
+	font-family: 'ArchivoBold';
+
+}
+.logo p{
+	color:#fff;
+	font-size:30px;
+	padding:35px 0;
+    font-family: 'NunitoReg';
+}
+.logo .one,.main_content a,.main_content_inner a{
+	text-decoration:none;
+	padding:10px 40px;
+	background-color:#f64b3c;
+	color:#fff;
+	border-radius:20px;
+	font-family: 'MontserratBold';
+}
+.banner{
+	background-image:url("../images/bg2.png");
+	background-position: center;
+	background-size:cover;
+	padding:70px 0;
+
+}
+.banner h2{
+	font-family: 'ArchivoBold';
+	color:#f64b3c;
+	text-align:center;
+	font-size: 40px;
+
+}
+.banner .two,section .three{
+	font-family: 'MontserratReg';
+	color:#f64b3c;
+	text-align:center;
+    padding: 40px 281px;
+    font-size:25px;
+}
+.banner_content{
+	float:left;
+	width:33%;
+	text-align:center;
+}
+.banner_content h3{
+	color:#f64b3c;
+	font-size:30px;
+	font-family: 'ArchivoBold';
+	padding-top:10px;
+}
+.banner_content p{
+	color:#f64b3c;
+	font-size:25px;
+	font-family: 'NunitoSemi';
+	padding-top:15px;
+}
+main{
+	background-color:#f64b3c;
+	padding:90px 0 370px 0;
+
+}
+.main_content{
+	float:left;
+	width:30%;
+}
+.main_content:first-child{
+	text-align:center;
+}
+.main_content:last-child{
+	float:right;
+	width:65%;
+	vertical-align: middle;
+
+}
+.main_content img{
+	border-radius:50%;
+	max-width:100%;
+}
+.main_content h4,.main_content_inner h4,section h2{
+	font-family: 'ArchivoBold';
+	color:#fff;
+	font-size:30px;
+}
+.main_content p,.main_content_inner p{
+	 font-family: 'NunitoReg';
+	 color:#fff;
+	padding:30px 0px 35px 0;
+	 font-size:25px;
+
+}
+.main_content a{
+	background-color:#fff;
+	color:#f64b3c;
+}
+.main{
+	background-image:url("../images/bg2.png");
+	background-position: center;
+	background-size: cover;
+	padding:90px 0 390px 0;
+
+}
+.main_inner{
+	float:left;
+	width:65%;
+}
+.main_inner:last-child{
+	float:right;
+	width:30%;
+
+}
+.main_inner img{
+	display:inline-block;
+	max-width:100%;
+	border-radius:50%;
+
+}
+.main_content_inner{
+	display:inline-block;
+	vertical-align:middle;
+}
+.main_content_inner h4{
+	color:#f64b3c;
+}
+.main_content_inner p{
+	color:#f64b3c;
+}
+section{
+	background-color:#f64b3c;
+	text-align:center;
+	padding:80px 0;
+	
+
+}
+section h2{
+	text-align:center;
+}
+section .three{
+	color:#fff;
+}
+.section_content{
+	float: left;
+    width: 20%;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 100px;
+    margin-right: 168px;
+   
+	}
+
+.section_content h3{
+	font-size:30px;
+	color:#fff;
+	font-family: 'ArchivoBold';
+	text-align:center;
+}
+.section_content p{
+	font-size:25px;
+	color:#fff;
+	font-family: 'MontserratBold';
+	text-align: center;
+}
+article{
+	background-image:url(../images/bg2.png);
+	background-size:cover;
+	background-position:center;
+	padding:60px 0 350px 0;
+
+}
+article h2{
+	font-size:30px;
+	color:#f64b3c;
+	font-family: 'ArchivoBold';
+	text-align:center;
+	padding-bottom:70px;
+}
+.article_content{
+	float: left;
+    width: 30%;
+    text-align: center;
+  
+    background-color: #fff;
+    padding: 20px 82px 30px;
+    margin-right: 42px;
+}
+.article_content h3{
+	font-size:20px;
+	font-family: 'ArchivoBold';
+	color:#f64b3c;
+}
+.article_content img{
+	max-width:100%;
+	width:100px;
+	height:100px;
+	padding:15px 0;
+}
+.article_content h4{
+	font-size:18px;
+	font-family: 'ArchivoBold';
+	color:#f64b3c;
+
+}
+.article_content p{
+	font-size:15px;
+	 font-family: 'MontserratReg';
+	color:#f64b3c;
+	padding:15px 0 25px 0;
+
+}
+.article_content a{
+	text-decoration:none;
+	background-color:#f64b3c;
+	color:#fff;
+	border-radius:20px;
+	padding:10px 30px;
+	 font-family: 'MontserratBold';
+}
+aside{
+	background-image:url("../images/bg3.png");
+	background-size:cover;
+	background-position:center;
+	padding:150px 0 80px 0;
+	text-align:center;
+
+}
+aside p{
+	font-size:30px;
+	color:#fff;
+	font-family: 'ArchivoBold';
+	padding: 0 334px;
+
+}
+aside h2{
+	color:#fff;
+	 font-family: 'CalistogaReg';
+	 padding-top:30px;
+	 font-size:30px;
+
+}
+.prefooter{
+	background-image:url("../images/bg2.png");
+	background-size:cover;
+	background-position:center;
+	padding:150px 0 100px 0;
+	text-align:center;
+}
+.prefooter h3{
+	font-size:40px;
+	font-family: 'ArchivoBold';
+	color:#f64b3c;
+
+}
+.prefooter p{
+	  font-family: 'NunitoReg';
+	  font-size:35px;
+	  color:#f64b3c;
+	  padding:25px 199px;
+}
+.prefooter input{
+	width:400px;
+	height:50px;
+	border-radius:20px;
+	background-color:#fff;
+	padding-left:25px;
+	border:none;
+	border-top-right-radius:0px;
+	border-bottom-right-radius:0px;
+	outline:none;
+}
+.prefooter input::placeholder{
+	color:#c8c0bb;
+	font-size:15px;
+}
+.prefooter a{
+	text-decoration:none;
+	background-color:#f64b3c;
+	color:#fff;
+	font-family: 'NunitoReg';
+	text-transform: uppercase;
+	padding:14px 30px;
+	border-radius:20px;
+	border-top-left-radius:0px;
+	border-bottom-left-radius:0px ;
+
+}
+footer{
+	background-color:#222222;
+	color:#fff;
+	padding:150px 0;
+	text-align:center;
+	
+}
+.footer_content{
+	float: left;
+    width: 22%;
+    margin-right: 84px;
+}
+.footer_content:nth-child(1){
+	text-align:left;
+}
+.footer_content:nth-child(2){
+	margin-right:30px;
+}
+.footer_content:nth-child(3){
+	margin-right:30px;
+}
+.footer_content:last-child{
+	margin-right:0;
+}
+.footer_content h2{
+	font-family: 'ArchivoBold';
+	font-size:30px;
+
+
+}
+.footer_content p{
+	font-size:14px;
+	font-family: 'NunitoReg';
+	padding:20px 0;
+}
+.social{
+	text-align:left;
+
+}
+.social i{
+	font-size:12px;
+	padding:10px;
+	border-radius:50%;
+	background-color:#fff;
+	color:#000;
+	margin-right:5px;
+	cursor:pointer;
+}
+.footer_content ul{
+	list-style-type:none;
+}
+.footer_content ul li{
+	display:block;
+	margin:15px 0;
+}
+.footer_content ul li a{
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	font-family: 'NunitoReg';
+	font-size:16px;
+
+
+}
+
+
+
+
+
